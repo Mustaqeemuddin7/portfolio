@@ -179,21 +179,4 @@ document.addEventListener('DOMContentLoaded', () => {
     updateCarousel();
 
 
-    // ── Contact Form (Simple Feedback) ─────
-    const form = document.getElementById('contact-form');
-    form.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const btn = form.querySelector('button[type="submit"]');
-        const originalText = btn.textContent;
-        btn.textContent = 'Message Sent!';
-        btn.style.background = '#2d7d46';
-        btn.disabled = true;
-        setTimeout(() => {
-            btn.textContent = originalText;
-            btn.style.background = '';
-            btn.disabled = false;
-            form.reset();
-        }, 3000);
-    });
-
 });

@@ -298,6 +298,7 @@ img {
     display: flex;
     gap: 20px;
     justify-content: center;
+    margin-bottom: 80px;
     opacity: 0;
     animation: fadeUp 0.8s ease 1.2s forwards;
 }
