@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Mustaqeem Uddin — Portfolio</title>
+    <meta name="description" content="Portfolio of Mohammed Mustaqeem Uddin — Computer Science undergraduate and aspiring Data Scientist proficient in Python, SQL, and Machine Learning.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ============ NAVIGATION ============ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">M<span class="accent">.</span></a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-photo-frame">
+                <img src="profile.jpg" alt="Mohammed Mustaqeem Uddin" class="hero-photo">
+            </div>
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Mohammed Mustaqeem<br>Uddin</h1>
+            <p class="hero-title" id="typed-text"></p>
+            <p class="hero-subtitle">Computer Science · Data Science · Machine Learning</p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="#about" class="btn btn-outline">Know More</a>
+            </div>
+            <div class="hero-socials">
+                <a href="https://github.com/Mustaqeemuddin7" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/mohammed-mustaqeem-uddin" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:mustaqeemu17@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title fade-in">About <span class="accent">Me</span></h2>
+            <div class="about-grid">
+                <div class="about-text fade-in">
+                    <p>
+                        I am Mohammed Mustaqeem Uddin, a Computer Science undergraduate at
+                        <strong>Lords Institute of Engineering and Technology</strong> with a CGPA of <strong>9.1</strong>,
+                        aspiring to build a career in Data Science. I am proficient in Python (Pandas), SQL,
+                        and data wrangling, with certifications in Data Science and DBMS that strengthened both
+                        my theoretical and practical knowledge.
+                    </p>
+                    <p>
+                        I am passionate about transforming raw data into meaningful insights for data-driven
+                        decision-making. Currently, I am enhancing my skills in machine learning and statistical
+                        modeling to prepare for Data Science internships and placements.
+                    </p>
+                </div>
+                <div class="about-stats fade-in">
+                    <div class="stat-card">
+                        <span class="stat-number">9.1</span>
+                        <span class="stat-label">CGPA</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">3rd</span>
+                        <span class="stat-label">Hackathon Prize</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">4+</span>
+                        <span class="stat-label">Certifications</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">B.E.</span>
+                        <span class="stat-label">Computer Science</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <h2 class="section-title fade-in">My <span class="accent">Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card fade-in">
+                    <div class="skill-icon"><i class="fab fa-python"></i></div>
+                    <h3>Python</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>SQL / MySQL</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h3>Data Visualization</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Machine Learning</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Data Analysis</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon"><i class="fas fa-server"></i></div>
+                    <h3>DBMS</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                    <h3>Git & GitHub</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="72"></div></div>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Jupyter Notebook</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section" id="education">
+        <div class="container">
+            <h2 class="section-title fade-in">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Aug 2023 — Present</span>
+                        <h3>Bachelor of Engineering (B.E.) in Computer Science</h3>
+                        <h4>Lords Institute of Engineering and Technology, Hyderabad</h4>
+                        <p>Affiliated to Osmania University · EQF Level 6</p>
+                        <p class="highlight">CGPA: 9.1</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Aug 2021 — May 2023</span>
+                        <h3>Intermediate (Class 11–12) — MPC</h3>
+                        <h4>Sri Chaitanya Junior Kalasala, Hyderabad</h4>
+                        <p>Telangana State Board of Intermediate Education</p>
+                        <p class="highlight">Percentage: 83%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section section-alt" id="projects">
+        <div class="container">
+            <h2 class="section-title fade-in">Projects</h2>
+        </div>
+        <div class="carousel-wrapper fade-in">
+            <div class="carousel-track" id="carousel-track">
+                <!-- Project 1 -->
+                <div class="carousel-card" data-index="0">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon"><i class="fas fa-car"></i></div>
+                            <div>
+                                <h3>Automobile Price Prediction</h3>
+                                <span class="project-date">2025</span>
+                            </div>
+                        </div>
+                        <p class="project-desc">
+                            This project applies machine learning techniques to predict automobile prices based on various features and specifications.
+                            It demonstrates data preprocessing, exploratory data analysis, feature engineering, and model training using regression algorithms.
+                            The project leverages libraries like <strong>scikit-learn</strong>, <strong>pandas</strong>, and <strong>numpy</strong> to build and evaluate predictive models.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Scikit-learn</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">Regression</span>
+                        </div>
+                        <a href="https://github.com/Mustaqeemuddin7/automobile-price-prediction.git" target="_blank" rel="noopener" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="carousel-card" data-index="1">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon"><i class="fas fa-chart-area"></i></div>
+                            <div>
+                                <h3>Extracting and Visualizing Stock Data</h3>
+                                <span class="project-date">Nov 2025</span>
+                            </div>
+                        </div>
+                        <p class="project-desc">
+                            This project focuses on extracting, analyzing, and visualizing stock market data using Python.
+                            It retrieves real-time or historical data from sources like Yahoo Finance using <strong>yfinance</strong>,
+                            processes and cleans the data with <strong>pandas</strong>, and visualizes stock price and revenue trends
+                            using <strong>matplotlib</strong>. The project includes a reusable <code>make_graph()</code> function for
+                            combined plotting and demonstrates proper handling of date formats.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">Matplotlib</span>
+                            <span class="tag">yfinance</span>
+                            <span class="tag">Data Visualization</span>
+                        </div>
+                        <a href="https://github.com/Mustaqeemuddin7/Extracting-and-visualizing-stock-data.git" target="_blank" rel="noopener" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- ============ CERTIFICATIONS ============ -->
+    <section class="section" id="certifications">
+        <div class="container">
+            <h2 class="section-title fade-in">Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card fade-in">
+                    <div class="cert-badge"><i class="fas fa-certificate"></i></div>
+                    <div class="cert-body">
+                        <span class="cert-issuer">IBM</span>
+                        <h3>Introduction to Data Science</h3>
+                        <p>Completed IBM's Introduction to Data Science Specialization on Coursera, covering data science methodology, SQL, Jupyter Notebooks, and foundational data analysis concepts.</p>
+                        <span class="cert-date">Oct 2025</span>
+                        <a href="https://www.coursera.org/account/accomplishments/specialization/PNLLP0LADH76" target="_blank" rel="noopener" class="cert-link">Verify <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="cert-card fade-in">
+                    <div class="cert-badge"><i class="fas fa-certificate"></i></div>
+                    <div class="cert-body">
+                        <span class="cert-issuer">IBM</span>
+                        <h3>Python for Data Science, AI & Development</h3>
+                        <p>Completed IBM's Python for Data Science, AI & Development course, developing practical skills in Python, data analysis, APIs, and foundational AI concepts.</p>
+                        <span class="cert-date">Sep 2025</span>
+                        <a href="https://www.coursera.org/account/accomplishments/verify/JYMUOIS1707M" target="_blank" rel="noopener" class="cert-link">Verify <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="cert-card fade-in">
+                    <div class="cert-badge"><i class="fas fa-certificate"></i></div>
+                    <div class="cert-body">
+                        <span class="cert-issuer">IBM</span>
+                        <h3>Databases and SQL for Data Science with Python</h3>
+                        <p>Completed IBM's Databases and SQL for Data Science with Python course, developing skills in SQL querying, relational databases, and integrating SQL with Python.</p>
+                        <span class="cert-date">Sep 2025</span>
+                        <a href="https://www.coursera.org/account/accomplishments/verify/094T8KIA7SYJ" target="_blank" rel="noopener" class="cert-link">Verify <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="cert-card fade-in">
+                    <div class="cert-badge"><i class="fas fa-certificate"></i></div>
+                    <div class="cert-body">
+                        <span class="cert-issuer">NPTEL</span>
+                        <h3>Database Management System</h3>
+                        <p>Completed NPTEL's DBMS course (IIT Kharagpur), covering relational database design, SQL, normalization, indexing, and transaction management.</p>
+                        <span class="cert-date">Mar 2025</span>
+                        <a href="https://archive.nptel.ac.in/content/noc/NOC25/SEM1/Ecertificates/106/noc25-cs18/Course/NPTEL25CS18S54700132301324455.pdf" target="_blank" rel="noopener" class="cert-link">Verify <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Get In <span class="accent">Touch</span></h2>
+            <div class="contact-grid">
+                <div class="contact-info fade-in">
+                    <p class="contact-intro">I'm currently looking for Data Science internships and placement opportunities. Feel free to reach out!</p>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:mustaqeemu17@gmail.com">mustaqeemu17@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+918019644620">+91 80196 44620</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Hyderabad, Telangana, India</span>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="https://github.com/Mustaqeemuddin7" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/mohammed-mustaqeem-uddin" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://wa.me/918019644620" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="mailto:mustaqeemu17@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form fade-in" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Mohammed Mustaqeem Uddin. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/Mustaqeemuddin7" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/mohammed-mustaqeem-uddin" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:mustaqeemu17@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
