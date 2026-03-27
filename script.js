@@ -13,11 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
         'Data Analyst'
     ];
     let phraseIdx = 0;
-    let charIdx   = 0;
-    let deleting  = false;
-    const TYPE_SPEED   = 80;
+    let charIdx = 0;
+    let deleting = false;
+    const TYPE_SPEED = 80;
     const DELETE_SPEED = 40;
-    const PAUSE        = 1800;
+    const PAUSE = 1800;
 
     function type() {
         const current = phrases[phraseIdx];
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ── Mobile Nav Toggle ──────────────────
     const navToggle = document.getElementById('nav-toggle');
-    const navLinks  = document.getElementById('nav-links');
+    const navLinks = document.getElementById('nav-links');
 
     navToggle.addEventListener('click', () => {
         navToggle.classList.toggle('active');
